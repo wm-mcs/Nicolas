@@ -5,16 +5,14 @@
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+  
     
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-mujer.jpg">  
     </div>
-     <div class="carousel-item ">
-       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-corazon.jpg">
-    </div>
+     
      <div class="carousel-item ">
       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-estrellas.jpg">  
     </div>
