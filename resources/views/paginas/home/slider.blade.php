@@ -13,10 +13,10 @@
       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-mujer.jpg">  
     </div>
      <div class="carousel-item ">
-       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-oro.jpg">
+       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-corazon.jpg">
     </div>
      <div class="carousel-item ">
-      <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-cora.jpg">  
+      <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-estrellas.jpg">  
     </div>
    
 
