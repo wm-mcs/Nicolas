@@ -163,10 +163,9 @@ class Admin_Producto_Controllers extends Controller
 
     $Propiedades     = $this->getPropiedades(); 
 
-    try{
-      DB::beginTransaction(); 
+    
       
-    $this->EntidadDelControladorRepo->setEntidadDato($Entidad,$Request,$Propiedades);     
+      $this->EntidadDelControladorRepo->setEntidadDato($Entidad,$Request,$Propiedades);     
 
       //imagenes
       $files = $Request->file('img');
@@ -189,19 +188,7 @@ class Admin_Producto_Controllers extends Controller
         
       }
       
-     //creo las marcas asociadas a este evento
-    /* if($Request->input('marca_asociado_id') != '')
-     {
-       foreach ($Request->input('marca_asociado_id') as $marca_asociada_id)
-       {
-         $this->Marca_de_eventoRepo->crearNuevaMarcaDeEvento( $Entidad->id, $marca_asociada_id);
-       }
-     }*/
-
-    DB::commit(); 
-    }catch(\Exception $e){            
-    DB::rollback();            
-    } 
+  
      
      
      if($Request->get('tipo_de_boton') == 'guardar')
