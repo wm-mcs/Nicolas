@@ -23,7 +23,7 @@
          
           </div>
           <div class="get_width_100 flex-row-column">
-             <a href="{{route('get_pagina_productos_listado')}}"><div class="boton-simple my-5"> Ver todo el catalogo</div>
+             <a href="{{route('get_pagina_productos_cuadros')}}"><div class="boton-simple my-5"> Ver todo el catalogo</div>
               </a>
           </div>
       
