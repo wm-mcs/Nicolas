@@ -16,7 +16,8 @@
 
 @section('contenido')
       @include('paginas.home.home_about')       
-      @include('paginas.home.home_precios')      
+      @include('paginas.home.home_precios')    
+      <img src="{{url()}}/imagenes/Slider/foto-slider-corazon.jpg" class="get_width_100">  
 @stop      
 
 
