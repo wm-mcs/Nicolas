@@ -1,0 +1,45 @@
+.producto-cuadro-contenedor{
+  
+  width: 100px;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: white;
+  @include flexbox;       
+  @include flex-direction(column);
+  @include align-items(center); 
+
+}
+
+
+  .producto-cuadro-contiene-img{
+    width: 100%;
+    height: auto;
+    @include flexbox;       
+    @include flex-direction(column);
+    @include align-items(center); 
+    @include justify-content(space-around); 
+    margin-bottom: 10px;
+
+
+  }
+
+      .producto-cuadro-img{
+        width: 100%;
+        height: auto;
+
+      }
+
+
+
+
+
+  .producto-cuadro-contiene-name{
+    margin-bottom: 10px;
+
+  }
+
+
+  .producto-cuadro-contiene-precio{
+    margin-bottom: 10px;
+
+  }

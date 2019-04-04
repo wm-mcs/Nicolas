@@ -14,6 +14,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use App\Repositorios\ProductoRepo;
 use App\Repositorios\CategoriaRepo;
+use Illuminate\Support\Facades\Cache;
 
 
 class Paginas_Controller extends Controller
@@ -147,7 +148,9 @@ class Paginas_Controller extends Controller
     {
        $Empresa    = $this->EmpresaRepo->getEmpresaDatos();
 
-       $Categorias = $this->CategoriaRepo->getEntidadActivas();
+       $Categorias =  Cache::remember('CategoriasProductosListados'.$this->id, 30, function() {
+                              return $this->CategoriaRepo->getEntidadActivas(); 
+                      }); 
        
        return view('paginas.productos.productos',compact('Categorias','Empresa'));
     }    
