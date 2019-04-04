@@ -1,6 +1,6 @@
  <div class="col-lg-10 mx-auto">
-      <h1 class="text-uppercase Slider_cabecera_caption_titulo text-color-black">
-        <strong>¿Buscas joyas de calidad y económicas?</strong>
+      <h1 class="text-uppercase Slider_cabecera_caption_titulo">
+        <span class="slider-titulo-expecial"><strong>¿Buscas joyas de calidad y económicas?</strong></span> 
       </h1>
       
 </div>
