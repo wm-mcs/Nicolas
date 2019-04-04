@@ -13,7 +13,7 @@
 
   .producto-cuadro-contiene-img{
     width: 100%;
-    height: auto;
+    height: 100px;
     @include flexbox;       
     @include flex-direction(column);
     @include align-items(center); 
@@ -66,6 +66,7 @@
 
   .producto-cuadro-contenedor{  
     width: 150px;
+    height: 138px;
   }
 
        
@@ -75,6 +76,7 @@
 @media (min-width: $BrackPoint-Secundario){
   .producto-cuadro-contenedor{  
     width: 200px;
+    height: 188px;
   }
 
    .producto-cuadro-contiene-name{
