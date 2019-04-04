@@ -16,8 +16,10 @@
                 @endforeach
               </div>
                
-
-
+             
+              <a href="{{route('get_pagina_productos_listado')}}"><div class="boton-simple my-5"> Ver todo el catalogo</div>
+              </a>
+              
          
           </div>
       
