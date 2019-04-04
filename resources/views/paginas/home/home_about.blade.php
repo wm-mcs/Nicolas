@@ -12,13 +12,16 @@
             <p class="text-white mb-4">Aquí te vamos a poder asesorar. Te mostraremos todas las opciones que tengamos acorde al tipo de persona que va a recibir el obsequio. De hecho iremos personalmente hasta donde estés, para que puedas preguntarnos, ver, tocar y todo lo que necesites para que juntos podamos elegir la mejor opción. 
             </p>
 
-          <a class="mt-5" href="https://api.whatsapp.com/send?phone={{$Empresa->numero_whatsapp_ya_arreglado}}&text=Hola!">
+        
+            
+          </div>
+        </div>
+       <div class="get_width_100 flex-row-column">
+            <a class="mt-5" href="https://api.whatsapp.com/send?phone={{$Empresa->numero_whatsapp_ya_arreglado}}&text=Hola!">
             <div class="boton-simple-blanco-whatsapp">
              Contáctame ahora <i class="fab fa-whatsapp"></i>
             </div>
           </a>
-            
-          </div>
         </div>
       </div>
     </section>
