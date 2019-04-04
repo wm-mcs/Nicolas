@@ -18,7 +18,7 @@
 <div class="producto-lista-contiene-precio">
   <div class="producto-lista-precio ">  <span class="helper-reduce-texto">{{$Entidad->moneda}} </span> {{$Entidad->precio_producto}}</div>
   @if($Entidad->stock > 0)
-    <div class="text-center color-text-success helper-reduce-texto">
+    <div class="text-center text-color-primary helper-reduce-texto">
         Entrega inmediata <i class="fas fa-check"></i>
     </div>
 

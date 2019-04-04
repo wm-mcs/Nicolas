@@ -28,7 +28,7 @@
 
 <div class="producto-cuadro-contiene-aclaracion">
    @if($Entidad->stock > 0)
-    <div class="text-center color-text-success helper-reduce-texto">
+    <div class="text-center text-color-primary helper-reduce-texto">
         Entrega inmediata <i class="fas fa-check"></i>
     </div>
 
