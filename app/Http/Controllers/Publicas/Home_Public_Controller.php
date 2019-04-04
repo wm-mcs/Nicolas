@@ -32,7 +32,7 @@ class Home_Public_Controller extends Controller
         
         $Route                = 'post_contacto_form';       
         $Empresa              = $this->EmpresaRepo->getEmpresaDatos(); 
-        $ProductosNuevos      = Cache::remember('ProductosNuevosHome', 30, function() {
+        $ProductosNuevos      = Cache::remember('ProductosNuevosHome', 30, function() use ($Request) {
                                    return $this->ProductoRepo->getUltimasEntidadesRegistradasRandomActive($Request,4) ; 
                                 });
 
