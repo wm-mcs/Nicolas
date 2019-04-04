@@ -31,6 +31,9 @@
 
 @section('content')
 
+
+<div class="flex-row-column get_width_100 BackgroundGris">
+
   
   <div class="col-lg-12 text-center">
      <h1 class="text-uppercase text-color-black" style="margin-top:78px;">
@@ -43,7 +46,7 @@
   
   
 
-  <div class="contenedor-listado-noticias BackgroundGris">
+  <div class="contenedor-listado-noticias ">
 
 
     @foreach($Categorias as $Categoria)
@@ -72,6 +75,9 @@
 
      <hr class="my-8">
     @endforeach 
+
+  </div>
+
 
   </div>
 
