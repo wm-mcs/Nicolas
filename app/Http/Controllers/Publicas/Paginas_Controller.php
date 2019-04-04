@@ -152,7 +152,18 @@ class Paginas_Controller extends Controller
                               return $this->CategoriaRepo->getEntidadActivas(); 
                       }); 
        
-       return view('paginas.productos.productos',compact('Categorias','Empresa'));
+       return view('paginas.productos.productos_como_listado',compact('Categorias','Empresa'));
+    }   
+
+    public function get_pagina_productos_cuadros()
+    {
+       $Empresa    = $this->EmpresaRepo->getEmpresaDatos();
+
+       $Categorias =  Cache::remember('CategoriasProductosListados', 30, function() {
+                              return $this->CategoriaRepo->getEntidadActivas(); 
+                      }); 
+       
+       return view('paginas.productos.productos_como_cuadros',compact('Categorias','Empresa'));
     }    
   
             //Noticias Individual
