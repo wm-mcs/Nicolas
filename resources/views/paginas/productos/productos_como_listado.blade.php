@@ -38,6 +38,7 @@
      </h1>
      <hr class="my-4">
      <h4 class="text-muted mb-4">Nos adaptamos a tus preferencias.</h4>
+     <h4 class="text-muted mb-4"><a href="{{route('get_pagina_productos_cuadros')}}">Ver tipo lista</a></h4>
 
   </div>
   

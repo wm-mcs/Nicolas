@@ -41,6 +41,7 @@
      </h1>
      <hr class="my-4">
      <h4 class="text-muted mb-4">Joyas seleccionadas cuidadosamente ;)</h4>
+     <h4 class="text-muted mb-4"><a href="{{route('get_pagina_productos_listado')}}">Ver tipo lista</a></h4>
 
   </div>
   
@@ -56,7 +57,7 @@
        <h2 class="producto-lista-categoria-name">{{$Categoria->name}}</h2>   
 
 
-       <div class="contendor-productos-cuadros-pagina  "> 
+       <div class="contendor-productos-cuadros-pagina"> 
          
        
        @foreach($Categoria->productos_categoria as $Entidad)
