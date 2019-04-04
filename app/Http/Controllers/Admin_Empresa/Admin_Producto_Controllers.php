@@ -177,7 +177,7 @@ class Admin_Producto_Controllers extends Controller
       if($files[0] != null )
       {     
 
-       dd($files);   
+
 
         foreach($files as $file) 
         { 
@@ -186,6 +186,8 @@ class Admin_Producto_Controllers extends Controller
           $Img->img         = $Entidad->name_slug;
           $Img->estado      = 'si';
           $Img->save();
+
+          dd($file); 
 
           $this->ImgEntidadRepo->setImagen($Img,$Request,'img','Productos/',$Entidad->name_slug.'-'.$Img->id,'.jpg',false,$file);
           $this->ImgEntidadRepo->setImagen($Img,$Request,'img','Productos/',$Entidad->name_slug.'-'.$Img->id.'-chica','.jpg',250,$file);
