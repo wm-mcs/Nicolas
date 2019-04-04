@@ -34,21 +34,21 @@
   
   <div class="col-lg-12 text-center">
      <h1 class="text-uppercase text-color-black" style="margin-top:78px;">
-        <strong>Lista de precios</strong>
+        <strong>Catalogo completo</strong>
      </h1>
      <hr class="my-4">
-     <h4 class="text-muted mb-4">Nos adaptamos a tus preferencias.</h4>
+     <h4 class="text-muted mb-4">Joyas seleccionadas cuidadosamente ;)</h4>
 
   </div>
   
   
 
-  <div class="contenedor-listado-noticias">
+  <div class="contenedor-listado-noticias class="BackgroundGris"">
 
 
     @foreach($Categorias as $Categoria)
 
-    <div>
+    <div class="get_width_100">
 
        <h2 class="producto-lista-categoria-name">{{$Categoria->name}}</h2>   
 
@@ -77,5 +77,5 @@
 
   
 
-
+  <img src="{{url()}}/imagenes/Slider/foto-slider-mujer.jpg" class="get_width_100">  
 @stop
