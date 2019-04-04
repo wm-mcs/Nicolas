@@ -159,9 +159,9 @@ class Admin_Producto_Controllers extends Controller
   //set edit admin 
   public function set_admin_productos_editar($id,Request $Request)
   {
-    $Entidad         = $this->EntidadDelControladorRepo->find($id);
+      $Entidad         = $this->EntidadDelControladorRepo->find($id);
 
-    $Propiedades     = $this->getPropiedades(); 
+      $Propiedades     = $this->getPropiedades(); 
 
     
       
@@ -169,6 +169,9 @@ class Admin_Producto_Controllers extends Controller
 
       //imagenes
       $files = $Request->file('img');
+
+      dd($files);
+
       
       //verifico si la pocion 0 es diferente de null, significa que el array no esta vacio
       if($files[0] != null )
