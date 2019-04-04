@@ -35,13 +35,21 @@
 
   .producto-cuadro-contiene-name{
     margin-bottom: 10px;
+    font-size: 12px;
 
   }
 
 
   .producto-cuadro-contiene-precio{
     margin-bottom: 10px;
+    color:$color-black;
+    font-size: 24px;
 
+  }
+
+
+  .producto-cuadro-contiene-aclaracion{
+    margin-bottom: 10px;
   }
 
 
@@ -67,6 +75,12 @@
 @media (min-width: $BrackPoint-Secundario){
   .producto-cuadro-contenedor{  
     width: 200px;
+  }
+
+   .producto-cuadro-contiene-name{
+    
+    font-size: 16px;
+
   }
 
   

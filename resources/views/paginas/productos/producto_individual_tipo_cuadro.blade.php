@@ -16,8 +16,14 @@
 
 
 <div class="producto-cuadro-contiene-precio">
-  <div class="producto-cuadro-precio ">  <span class="helper-reduce-texto">{{$Entidad->moneda}} </span> {{$Entidad->precio_producto}}</div>
-  @if($Entidad->stock > 0)
+  <div class="producto-cuadro-precio ">  <span class="helper-reduce-texto">{{$Entidad->moneda}} </span> {{$Entidad->precio_producto}}
+
+  </div>
+
+</div>
+
+<div class="producto-cuadro-contiene-aclaracion">
+   @if($Entidad->stock > 0)
     <div class="text-center color-text-success helper-reduce-texto">
         Entrega inmediata <i class="fas fa-check"></i>
     </div>
@@ -27,7 +33,6 @@
         Disponible en 24hs  <i class="far fa-clock"></i>
     </div>
   @endif
-
 </div>
   
 
