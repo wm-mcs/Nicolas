@@ -43,7 +43,7 @@
   
   
 
-  <div class="contenedor-listado-noticias class="BackgroundGris"">
+  <div class="contenedor-listado-noticias BackgroundGris">
 
 
     @foreach($Categorias as $Categoria)
