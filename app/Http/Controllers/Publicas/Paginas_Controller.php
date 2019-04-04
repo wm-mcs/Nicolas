@@ -148,7 +148,7 @@ class Paginas_Controller extends Controller
     {
        $Empresa    = $this->EmpresaRepo->getEmpresaDatos();
 
-       $Categorias =  Cache::remember('CategoriasProductosListados'.$this->id, 30, function() {
+       $Categorias =  Cache::remember('CategoriasProductosListados', 30, function() {
                               return $this->CategoriaRepo->getEntidadActivas(); 
                       }); 
        
