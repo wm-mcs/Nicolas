@@ -1,18 +1,22 @@
-<a href="{{$Entidad->route}}" >
+
 <div class="producto-cuadro-contenedor">
 
+<a href="{{$Entidad->route}}" >
 <div class="producto-cuadro-contiene-img">
   
     <img src="{{$Entidad->url_img}}" class="producto-cuadro-img">
   
 </div>
+</a>
 
+<a href="{{$Entidad->route}}" >
 <div class="producto-cuadro-contiene-name">
 
   <div class="producto-cuadro-name color-text-gris"> {{$Entidad->name}} </div>
   
   
 </div>
+</a>
 
 
 <div class="producto-cuadro-contiene-precio">
@@ -39,4 +43,3 @@
 
   
 </div>
-</a>

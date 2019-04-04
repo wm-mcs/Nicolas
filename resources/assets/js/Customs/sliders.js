@@ -25,7 +25,22 @@ $('.producto-individual-contenedor-imgs').flickity({
   pageDots: true,
   groupCells: true,
   lazyLoad: 2
-});
+}); 
+
+
+$('#productos-novedades-home').flickity({
+  // options
+  cellSelector: '.producto-cuadro-contenedor',
+  contain: true,
+  // disable previous & next buttons and dots
+  prevNextButtons: true,
+  pageDots: true,
+  groupCells: true,
+  lazyLoad: 2
+}); 
+
+
+
 
 
 
