@@ -15,12 +15,8 @@
 @section('slider')  @include('paginas.home.slider') @stop
 
 @section('contenido')
-      @include('paginas.home.home_about') 
-      @include('paginas.home.home_clientes')
-    
-      @include('paginas.home.home_pasos_para_concretar')  
-      @include('paginas.home.home_precios')
-      @include('paginas.home.home_garantia')
+      @include('paginas.home.home_about')       
+      @include('paginas.home.home_precios')      
 @stop      
 
 
