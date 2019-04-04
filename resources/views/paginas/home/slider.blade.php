@@ -12,10 +12,10 @@
     <div class="carousel-item active">
       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-mujer.jpg">  
     </div>
-     <div class="carousel-item active">
+     <div class="carousel-item ">
        <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-oro.jpg">
     </div>
-     <div class="carousel-item active">
+     <div class="carousel-item ">
       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/foto-slider-cora.jpg">  
     </div>
    
