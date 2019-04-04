@@ -1,5 +1,5 @@
 
-<div class="producto-cuadro-contenedor margin-right-10">
+
 
 <a href="{{$Entidad->route}}" >
 <div class="producto-cuadro-contiene-img">
@@ -42,4 +42,4 @@
 
 
   
-</div>
+
