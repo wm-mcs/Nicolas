@@ -201,7 +201,7 @@ abstract class BaseRepo
     }
 
 
-    public function setImagen($Entidad,$request,$nombreDelCampoForm,$carpetaDelArchivo,$nombreDelArchivo,$ExtensionDelArchivo,$redimencionar_a = null,$file)
+    public function setImagen($Entidad,$request,$nombreDelCampoForm,$carpetaDelArchivo,$nombreDelArchivo,$ExtensionDelArchivo,$redimencionar_a = null,$file = null)
     {
       //nombre del Archico / Carpeta Incluido
       $nombre = $carpetaDelArchivo.$nombreDelArchivo.$ExtensionDelArchivo;
