@@ -29,9 +29,9 @@
   <img class="admin-img-section-img" src="{{$Entidad->url_img_portada}}">
   <img class="admin-img-section-img" src="{{$Entidad->url_img_adicional}}">
 
-  <img class="admin-img-section-img" src="{{url()}}/imagenes/Noticias/{{$Entidad->name_slug . $Entidad->id}}-adicional-3"> 
-  <img class="admin-img-section-img" src="{{url()}}/imagenes/Noticias/{{$Entidad->name_slug . $Entidad->id}}-adicional-4"> 
-  <img class="admin-img-section-img" src="{{url()}}/imagenes/Noticias/{{$Entidad->name_slug . $Entidad->id}}-adicional-5"> 
+  <img class="admin-img-section-img" src="{{url()}}/imagenes/Noticias/{{$Entidad->name_slug . $Entidad->id}}-adicional-3.jpg"> 
+  <img class="admin-img-section-img" src="{{url()}}/imagenes/Noticias/{{$Entidad->name_slug . $Entidad->id}}-adicional-4.jpg"> 
+  <img class="admin-img-section-img" src="{{url()}}/imagenes/Noticias/{{$Entidad->name_slug . $Entidad->id}}-adicional-5.jpg"> 
   
 </div>
 @endif
