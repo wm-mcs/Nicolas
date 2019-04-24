@@ -93,8 +93,14 @@ class Admin_Noticias_Controllers extends Controller
     $this->NoticiasRepo->setImagen( $noticia ,$Request , 'img', 'Noticias/',  $noticia->name_slug .$noticia->id.'-portada'   ,'.jpg');
     $this->NoticiasRepo->setImagen( null ,$Request , 'img2', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional' ,'.jpg');
 
-         $this->NoticiasRepo->setImagen( $noticia ,$Request , 'img', 'Noticias/',  $noticia->name_slug .$noticia->id.'-portada-chica'   ,'.jpg',250);
-     $this->NoticiasRepo->setImagen( null ,$Request , 'img2', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional-chica' ,'.jpg',250);
+    $this->NoticiasRepo->setImagen( $noticia ,$Request , 'img', 'Noticias/',  $noticia->name_slug .$noticia->id.'-portada-chica'   ,'.jpg',250);
+    $this->NoticiasRepo->setImagen( null ,$Request , 'img2', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional-chica' ,'.jpg',250);
+
+    $this->NoticiasRepo->setImagen( null ,$Request , 'img3', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional-3' ,'.jpg');
+
+    $this->NoticiasRepo->setImagen( null ,$Request , 'img4', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional-4' ,'.jpg');
+
+    $this->NoticiasRepo->setImagen( null ,$Request , 'img5', 'Noticias/', $noticia->name_slug .$noticia->id.'-adicional-5' ,'.jpg');
 
     return redirect()->route('get_admin_noticias')->with('alert', 'Noticia Editado Correctamente');  
   }
