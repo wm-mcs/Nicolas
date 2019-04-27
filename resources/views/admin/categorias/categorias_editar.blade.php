@@ -2,7 +2,7 @@
 
 @section('miga-de-pan') 
   {{-- lugar atras --}}
-  <a href="{{route('get_admin_marcas')}}"><span>Categorias</span></a>
+  <a href="{{route('get_admin_categorias')}}"><span>Categorias</span></a>
 
   {{-- separador --}}
   <span class="spam-separador">|</span> 
@@ -11,7 +11,7 @@
   <span>Editar categoria</span>
 @stop
 
-@section('content')
+@section('content') 
 
 
 
