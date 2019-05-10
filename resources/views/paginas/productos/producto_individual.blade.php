@@ -59,8 +59,13 @@
    <div class="producto-individual-precio">
       <div class="flex-row-center ">
         <div class="flex-row-center" >
-          <span class="producto-individual-moneda">{{$Entidad->moneda}}</span> 
-          <span class="producto-individual-precio-valor">{{$Entidad->precio_producto}}</span>         
+          @if($Entidad->precio_producto == 0)
+            <div>Consultar</div>
+          @else
+            <span class="producto-individual-moneda">{{$Entidad->moneda}}</span> 
+            <span class="producto-individual-precio-valor">{{$Entidad->precio_producto}}</span>  
+          @endif
+                 
         </div>   
       </div>
   </div>

@@ -20,8 +20,14 @@
 
 
 <div class="producto-cuadro-contiene-precio">
-  <div class="producto-cuadro-precio ">  <span class="helper-reduce-texto">{{$Entidad->moneda}} </span> {{$Entidad->precio_producto}}
+  <div class="producto-cuadro-precio ">  
 
+          @if($Entidad->precio_producto == 0)
+            <div>Consultar</div>
+          @else
+             <span class="helper-reduce-texto">{{$Entidad->moneda}} </span> {{$Entidad->precio_producto}}
+          @endif
+   
   </div>
 
 </div>
