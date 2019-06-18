@@ -9,7 +9,7 @@
             <h2 class="section-heading text-white">¿Quienes somos? </h2>
            
             <hr class="light my-4">
-            <p class="text-white mb-4">Somos un pequeño negocio familiar, que brindamos y asesoramos venta al público de alhajas de todo tipo y diseño (anillos, caravanas, pulseras, cadenas, dijes, etc.). Brindamos un servicio de visita a domicilio o hasta su lugar de trabajo para su mayor comodidad. Trabajamos también con diseños personalizados acordes a sus gustos personales.  
+            <p class="text-white mb-4">Somos un emprendimiento familiar, que brinda y asesora venta al cliente (de forma personal y con dedicación) de joyas de todo tipo y diseño que pueda imaginar y crear. Estamos a las ordenes para ofrecerles un servicio de visita a domicilio o hasta su lugar de trabajo para su mayor comodidad ;-).
             </p>
 
         
