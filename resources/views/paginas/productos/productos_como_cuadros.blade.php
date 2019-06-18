@@ -52,29 +52,31 @@
 
     @foreach($Categorias as $Categoria)
 
-    <div class="get_width_100">
+     @if($Categoria->productos_categoria->count() > 0)
 
-       <h2 class="producto-lista-categoria-name">{{$Categoria->name}}</h2>   
+        <div class="get_width_100">
+
+           <h2 class="producto-lista-categoria-name">{{$Categoria->name}}</h2>   
 
 
-       <div class="contendor-productos-cuadros-pagina"> 
-         
-       
-       @foreach($Categoria->productos_categoria as $Entidad)
-      
-        <div class="producto-cuadro-contenedor margin-right-10 mt-3">
-                   @include('paginas.productos.producto_individual_tipo_cuadro')   
-        </div>   
+           <div class="contendor-productos-cuadros-pagina"> 
+             
+           
+           @foreach($Categoria->productos_categoria as $Entidad)
+          
+            <div class="producto-cuadro-contenedor margin-right-10 mt-3">
+                       @include('paginas.productos.producto_individual_tipo_cuadro')   
+            </div>   
 
-       @endforeach
+           @endforeach
 
-       </div>
-      
-    </div>
+           </div>
+          
+        </div>
 
-    
-
-     <hr class="my-8">
+        <hr class="my-8">
+        
+     @endif
     @endforeach 
 
   </div>

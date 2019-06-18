@@ -49,15 +49,17 @@
 
     @foreach($Categorias as $Categoria)
 
-     <h2 class="producto-lista-categoria-name">{{$Categoria->name}}</h2>   
+     @if($Categoria->productos_categoria->count() > 0)
+         <h2 class="producto-lista-categoria-name">{{$Categoria->name}}</h2>   
 
-     @foreach($Categoria->productos_categoria as $Entidad)
-    
-      @include('paginas.productos.producto_individual_tipo_lista')   
+         @foreach($Categoria->productos_categoria as $Entidad)
+        
+          @include('paginas.productos.producto_individual_tipo_lista')   
 
-     @endforeach
+         @endforeach
 
-     <hr class="my-8">
+         <hr class="my-8">
+     @endif
     @endforeach 
 
   </div>
