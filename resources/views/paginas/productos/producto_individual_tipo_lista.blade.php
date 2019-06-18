@@ -18,7 +18,7 @@
 <div class="producto-lista-contiene-precio">
    <div class="producto-lista-precio">  
      @if($Entidad->precio_producto == 0)
-       <div class="producto-lista-consultar">Consultar</div>
+       <div class="producto-lista-consultar"> <i class="fas fa-info-circle"></i> Consultar</div>
      @else
        <span class="helper-reduce-texto">{{$Entidad->moneda}} </span> {{$Entidad->precio_producto}}
       @endif
