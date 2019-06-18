@@ -27,6 +27,7 @@
   text-align: center;
   color: $color-gris-text;
   font-size: 14px;
+  width: 100%;
 
 }
 
@@ -80,3 +81,16 @@
   margin-right: 5px;
 }
 
+
+
+
+
+@media (min-width: $BrackPoint-Secundario){
+
+
+.producto-individual-img-contendor{   
+  width: 80%;
+
+ }
+
+}
