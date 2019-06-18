@@ -31,12 +31,12 @@ class Envio_Formularios_Controller extends Controller
 
     public function post_contacto_form(Request $Request)
     {
-
       
+      $Nombre_de_empresa  = $this->EmpresaRepo->getEmpresaDatos()->name;;
       $name               = $Request->get('nombre');
       $email              = $Request->get('email');
       $mensaje            = $Request->get('mensaje');
-      $Email_al_que_envia = $this->EmpresaRepo->getEmpresaDatos()->email;
+      $Email_al_que_envia =  $this->EmpresaRepo->getEmpresaDatos()->email;
       $Titulo_de_email    = $Request->get('titulo_email'); 
 
       
