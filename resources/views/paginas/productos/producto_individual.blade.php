@@ -60,7 +60,7 @@
       <div class="flex-row-center ">
         <div class="flex-row-center" >
           @if($Entidad->precio_producto == 0)
-            <div>Consultar</div>
+            <div> <i class="fas fa-info-circle"></i> Consultar </div>
           @else
             <span class="producto-individual-moneda">{{$Entidad->moneda}}</span> 
             <span class="producto-individual-precio-valor">{{$Entidad->precio_producto}}</span>  
@@ -98,6 +98,10 @@
     </div>
     
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
   
