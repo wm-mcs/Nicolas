@@ -1,6 +1,6 @@
 
 .producto-lista-categoria-name{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 8px;
   width: 100%;
@@ -33,11 +33,15 @@
   @include flexbox;       
   @include flex-direction(column);
   @include align-items(center); 
+  background-color:white;
+  border-radius:4px;
 }
 
   .producto-lista-img{
     width: 50px;
     height: auto;
+    padding:6px; 
+
   }
 
 .producto-lista-contiene-name{
@@ -73,3 +77,20 @@
   font-size: 14px;
   font-weight: bold;
  }
+
+
+
+@media (min-width: $BrackPoint-Secundario){
+
+
+  .producto-lista-name{
+    font-size: 14px;    
+    
+  }
+
+
+  .producto-lista-img{
+    height: 65px;
+  }
+
+}
